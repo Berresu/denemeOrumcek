@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Spider-Man</title>
+</head>
+<body>
+    <form>
+        <label for="txtAd">Adınızı Giriniz:</label>
+        <input type="text" id="txtAd"><br>
+
+        <label for="txtSoyad">Soyadınızı Giriniz:</label>
+        <input type="text" id="txtSoyad"><br>
+
+        <label for="numberYas">Yaşınızı Giriniz:</label>
+        <input type="number" id="numberYas"><br>
+
+        <label for="listeOrumcek">Favori Örümcek Adam Oyuncunuzu Seçiniz:</label>
+        <select name="orumcek" id="listeOrumcek">
+            <option value="scn">Seçiniz</option>
+            <option value="tm">Tobey Maguire</option>
+            <option value="ag">Andrew Garfield</option>
+            <option value="th">Tom Holland</option>
+        </select>
+        <input type="button" value="Gönder" id="btnGönder" onclick="merhaba()">
+    </form>
+    <h3 id="sonucBaslik"></h3>
+    <p id="yazi"></p>
+    <img id="resim">
+</body>
+</html>
